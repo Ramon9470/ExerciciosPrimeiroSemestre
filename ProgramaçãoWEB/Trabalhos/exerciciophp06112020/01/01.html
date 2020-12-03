@@ -1,0 +1,32 @@
+<!--
+    1.	Faça um programa que receba o nome e o valor do salário de um funcionário, o percentual de aumento, 
+    enviados através de um formulário, calcule valor do aumento e o novo salário, e ao final exiba o nome do 
+    funcionário o valor do aumento e o novo salário que ele obteve.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aumento Salarial</title>
+    
+</head>
+<body>
+    
+    <form action="01.php" method="GET">
+        <div class="salary">
+            <label for="Nomee">Nome: </label>
+            <input type="text" name="nome" id="Nome" placeholder="Informe o seu nome"><br><br>
+            Salário: <input type="number" name="numero" id="salario" placeholder="Informe seu salário"><br><br>
+            
+        <div class="percentage">
+            <label for="Percente">Porcentagem: </label>
+            <input type="number" name="porcentagem" id="aumento" placeholder="Informe a porcetagem ganho">
+        </div>
+        </div>
+        <br><button type="submit">Calcular</button>
+    </form>
+</body>
+</html>

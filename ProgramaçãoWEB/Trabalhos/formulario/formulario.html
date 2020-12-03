@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Funciconários</title>
+    <link rel="stylesheet" href="css/istilo.css">
+</head>
+<body>
+    <div class="tela">
+        <div class="ladoesquerdo">
+            <img src="img/estacio.jpg" alt="" />
+        </div>
+        <div class="ladodireito">
+            <h1>Cadastrar Funciconários</h1>
+
+            <form method="POST" class="validar">
+                <label>
+                    Nome: <br/>
+                    <input type="text" name="name" data-rules="required" placeholder="Seu nome completo">
+                </label>
+                <label>
+                    E-mail: <br/>
+                    <input type="email" name="email" placeholder="Seu e-mail">
+                </label>
+                <label>
+                    Senha: <br/>
+                    <input type="password" name="password" placeholder="Sua senha">
+                </label>
+                <label>
+                    Função: <br/>
+                    <input type="text" name="funcao" placeholder="Função do funcionário">
+                </label>
+                <label>
+                    Data de nascimento: <br/>
+                    <input type="date" name="date">
+                </label>
+                <label>
+                    <input type="submit" value="Cadastrar">
+                </label>
+            </form>
+            <div>
+                Já é cadastrado? <a href="#">Faça o login</a>
+            </div>
+        </div>
+    </div>
+
+ <script src="js/script.js"></script>
+</body>
+</html>

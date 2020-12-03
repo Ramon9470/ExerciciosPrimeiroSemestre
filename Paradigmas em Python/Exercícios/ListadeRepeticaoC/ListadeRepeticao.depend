@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1600981640 source:c:\xampp\htdocs\github\exerciciosestacio\paradigmas em python\exercícios\listaderepeticao\main.c
+	<stdio.h>
+	<stdlib.h>
+

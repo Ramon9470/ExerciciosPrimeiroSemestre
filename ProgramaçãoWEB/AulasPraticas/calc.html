@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+</head>
+<body>
+
+    <script>
+        var opcao = parseInt(prompt("1 = SOMAR   | 2 - SUBTRAIR  | 3 - Multiplicar | 99 -Sair"));
+        var valorA = parseInt(prompt("Informe o primeiro valor"));
+        var valorB = parseInt(prompt("Informe o segundo valor"));
+
+        switch(opcao){
+
+            case 1 : window.alert(valorA+valorB); break;
+            case 2 : window.alert(valorA-valorB); break;
+            case 3 : window.alert(valorA*valorB); break;
+            default : window.alert("Opção não existe");
+
+        }
+    </script>
+    
+</body>
+</html>

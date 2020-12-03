@@ -1,0 +1,15 @@
+Objetivo Geral
+Desenvolver uma ferramenta de mineração de dados integrada ao simulador de realidade virtual REANIME, 
+com o intuito de gerar dados do processo de treinamento dos profissionais da saúde e facilitar a tomada 
+de decisões do aprendizado.  
+
+Objetivos Específicos
+• Integralizar a inteligência computacional ao simulador de realidade virtual REANIME;
+• Criar um software usando as técnicas de mineração de dados em Python para classificação de o aprendizado 
+de profissionais de saúde em reanimação neontal utilizando o simulador REANIME.
+
+• Extrair informações dos conjuntos de dados de cada profissional de saúde e convertê-los em uma estrutura compreensível no que diz respeito ao aprendizado.
+
+estudar data mingin 
+lógica fuse 
+arvore de decisão 
